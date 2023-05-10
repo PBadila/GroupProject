@@ -1,0 +1,138 @@
+body{
+    background-color:#f3efb5;
+}
+
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.boxes{
+    width: 60%;
+    align-self: center;
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+#logo{
+    width:75%;
+    height:auto;
+}
+
+#navBox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    bottom:3%;
+    align-self: center;
+    width:99%;
+
+}
+.nav1{
+    width:5%;
+    height:auto;
+}
+.nav2{
+    width:5%;
+    height:auto;
+}
+
+#changingDiv1{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#changingDiv2{
+    display:none;
+    flex-direction: row;
+    justify-content:space-between;
+    padding:5%;
+    align-items:center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#changingDiv3{
+    display:none;
+    flex-direction: column;
+    justify-content:center;
+    padding:2%;
+}
+
+#changingDiv4{
+    display:none;
+    flex-direction: column;
+    justify-content:center;
+    padding:2%;
+    width:75%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ul{
+    font-size: 2.2rem;
+    list-style-image:url('./imgs/menu.png');
+}
+#stretchImg{
+    text-align:center;
+    width:50%;
+    align-self: center;
+}
+.stretchGoals{
+    width:300px;
+    height:300px;
+    background-image: url('./imgs/salad.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.goalP{
+    position:absolute;
+    left:44%;
+    bottom:60%;
+}
+
+
+
+#listBox{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:3%;
+    padding-top:0;
+}
+.stretchListImg{
+    width:300px;
+    height:300px;
+    display:none;
+}
+#stretchGoalList{
+    width:25%;
+}
+#featGoalBox{
+    width:25%;
+}
+
+.audio{
+    display:none;
+}
+
+#us{
+    text-align:center;
+}
+
+.usPage{
+    margin-top:0;
+    margin-left:auto;
+    margin-right:auto;
+}
